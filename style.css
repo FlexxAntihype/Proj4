@@ -1,0 +1,270 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: black;
+}
+
+.header {
+  background-image: url("fon12.jpg");
+  height: 1000px;
+  width: 1900px;
+  background-repeat: no-repeat;
+}
+
+.container_header {
+  display: flex;
+  margin: 0px 0px 0px 300px;
+}
+
+.nav {
+  color: white;
+  display: flex;
+  list-style-type: none;
+  margin: 35px 0px 0px 42px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.nav-li:hover {
+  color: orange;
+  transition: 1s;
+}
+
+.nav-li {
+  margin: 13px 0px 0px 15px;
+}
+
+.logo {
+  background-image: url("logo.png");
+  width: 120px;
+  height: 117px;
+  margin: 21px 0px 0px -90px;
+  -webkit-animation: logo 1s linear;
+          animation: logo 1s linear;
+}
+
+.back-call {
+  color: white;
+  margin: 12px 0px 0px 35px;
+  padding: 10px 10px 10px 10px;
+  border: 3px solid orange;
+  border-radius: 25px 0px 25px 0px;
+  text-decoration: none;
+  transition: 1s;
+}
+
+.back-call:hover {
+  background-color: orange;
+  border-radius: 0px 25px 0px 25px;
+}
+
+.txt-header {
+  color: white;
+  width: 850px;
+  height: 100px;
+  margin: 90px 0px 0px 34px;
+  font-size: 24px;
+  -webkit-animation: txt-anim 1s linear;
+          animation: txt-anim 1s linear;
+}
+
+.button-sms {
+  color: white;
+  margin: 0px 0px 0px 35px;
+  padding: 10px 10px 10px 10px;
+  border: 3px solid orange;
+  border-radius: 25px 0px 25px 0px;
+  text-decoration: none;
+  font-size: 30px;
+  background-color: orange;
+  transition: 1s;
+}
+
+.button-sms:hover {
+  background-color: brown;
+  border-radius: 0px 25px 0px 25px;
+}
+
+.conteiner-sms {
+  margin: 182px 0px 0px 2px;
+  -webkit-animation: button-anim 1s linear;
+          animation: button-anim 1s linear;
+}
+
+.social-network {
+  display: block;
+  position: absolute;
+  margin: -300px 0px 0px 1593px;
+  width: 150px;
+  height: 300px;
+}
+
+.instagram {
+  display: block;
+  background-image: url("Network3.png");
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 70px;
+  -webkit-animation: instagram 1s linear;
+          animation: instagram 1s linear;
+}
+
+.facebook {
+  display: block;
+  background-image: url("Network1.png");
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 70px;
+  margin: 30px 0px 30px 0px;
+  -webkit-animation: facebook 1s linear;
+          animation: facebook 1s linear;
+}
+
+.youtube {
+  display: block;
+  background-image: url("Network2.png");
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 70px;
+  -webkit-animation: youtube 1s linear;
+          animation: youtube 1s linear;
+}
+
+.img-span {
+  width: 60px;
+  height: 60px;
+  margin: 20px 0px 0px 10px;
+  position: absolute;
+  -webkit-animation: rotation 2s infinite linear;
+          animation: rotation 2s infinite linear;
+}
+
+.span-two {
+  width: 60px;
+  height: 60px;
+  margin: -46px 0px 0px -29px;
+  position: absolute;
+  -webkit-animation: rotation 2s infinite linear;
+          animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+@-webkit-keyframes txt-anim {
+  from {
+    margin: 90px 0px 0px -600px;
+  }
+  to {
+    margin: 90px 0px 0px 34px;
+  }
+}
+@keyframes txt-anim {
+  from {
+    margin: 90px 0px 0px -600px;
+  }
+  to {
+    margin: 90px 0px 0px 34px;
+  }
+}
+@-webkit-keyframes button-anim {
+  from {
+    margin: -500px 0px 0px 2px;
+  }
+  to {
+    margin: 182px 0px 0px 2px;
+  }
+}
+@keyframes button-anim {
+  from {
+    margin: -500px 0px 0px 2px;
+  }
+  to {
+    margin: 182px 0px 0px 2px;
+  }
+}
+@-webkit-keyframes logo {
+  from {
+    margin: 21px 0px 0px 50px;
+    transform: rotate(0deg);
+  }
+  to {
+    margin: 21px 0px 0px -90px;
+    transform: rotate(359deg);
+  }
+}
+@keyframes logo {
+  from {
+    margin: 21px 0px 0px 50px;
+    transform: rotate(0deg);
+  }
+  to {
+    margin: 21px 0px 0px -90px;
+    transform: rotate(359deg);
+  }
+}
+@-webkit-keyframes instagram {
+  from {
+    margin: 700px 0px 0px 600px;
+  }
+  to {
+    margin: 0px 0px 0px 0px;
+  }
+}
+@keyframes instagram {
+  from {
+    margin: 700px 0px 0px 600px;
+  }
+  to {
+    margin: 0px 0px 0px 0px;
+  }
+}
+@-webkit-keyframes facebook {
+  from {
+    margin: 700px 0px 0px 600px;
+  }
+  to {
+    margin: 0px 0px 0px 0px;
+  }
+}
+@keyframes facebook {
+  from {
+    margin: 700px 0px 0px 600px;
+  }
+  to {
+    margin: 0px 0px 0px 0px;
+  }
+}
+@-webkit-keyframes youtube {
+  from {
+    margin: 400px 0px 0px 600px;
+  }
+  to {
+    margin: 0px 0px 0px 0px;
+  }
+}
+@keyframes youtube {
+  from {
+    margin: 400px 0px 0px 600px;
+  }
+  to {
+    margin: 0px 0px 0px 0px;
+  }
+}/*# sourceMappingURL=style.css.map */
